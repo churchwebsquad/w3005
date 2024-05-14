@@ -1,0 +1,48 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- PCO Pop UP -->
+<script src="https://js.churchcenter.com/modal/v1"></script>
+
+<!-- Toggle Timeline -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var toggles = document.querySelectorAll('.timeline-toggle');
+
+  toggles.forEach(function(toggle) {
+    toggle.addEventListener('click', function() {
+      var details = this.nextElementSibling;
+      if (details.style.display === 'none' || details.style.display === '') {
+        details.style.display = 'block';
+      } else {
+        details.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+
+<!-- SquareKicker.com | Extension | START --><script>
+  if (window.self !== window.top &&
+      window.top.Static.SQUARESPACE_CONTEXT.authenticatedAccount) {
+    var sk = document.createElement('script');
+    sk.type = 'text/javascript';
+    sk.id = "squarekicker";
+    sk.src = "https://extension.squarekicker.com/kicker.js";
+    sk.dataset.sktoken = "60b860b29c97b63644cc950abaca3325";
+    document.querySelector('head').appendChild(sk);
+  }
+</script><!-- SquareKicker.com | Extension | END -->
+
+
+
+
+
+
+<!--------------- ^ Add Your Custom Code Above ^ ----------------->
+<!---------------------------------------------------------------->
+<!--- DO NOT REMOVE -- SQUAREKICKER EXTENSION -- DO NOT REMOVE --->
+<!---------------------------------------------------------------->
+<div id="skFooter" data-skui="3.10.0" data-tools="3.9.7" data-cleaned="false" data-memory="66438839074af20077df721c" data-memory-updated="2024-05-14T15:50:17.421Z" data-template-mode="false" style="visibility:hidden;height:0;overflow:hidden;"><div id="skPalette"><style>:root{--sk-color-a15:#FF1D1FEA;--sk-color-a70:#131212A0;}</style></div><div id="skStyles"><link id="sk-stylesheet" type="text/css" rel="stylesheet" href="/s/sk_styles_66438839074af20077df721c_397.css"></div><div id="skPresets"><script data-config="W3siaWQiOiIuc2stcHJlc2V0LTUxNjM1MTc4NzcyNDQxOTkiLCJzbCI6WyJzZWN0aW9uW2RhdGEtc2VjdGlvbi1pZD1cIjY2MjJiZDk4NTAxZWZkM2VkNmY5ZmYzMlwiXSIsInNlY3Rpb25bZGF0YS1zZWN0aW9uLWlkPVwiNjYyMmYxYWU4OTlmNTAzNzcwZmUyZmU3XCJdIiwic2VjdGlvbltkYXRhLXNlY3Rpb24taWQ9XCI2NjIzMGViNTRkZDFhMDcwMGQzNmI2ZmZcIl0iXX0seyJpZCI6Ii5zay1wcmVzZXQtNjY2NTI5NzA4OTMxNDAwOCIsInNsIjpbIiNibG9jay03Y2IwMmZiNTVjNmNhNWU2MDk1MCIsIiNibG9jay00NmQzYmM0MzFlYWYxZmViZjE4MyIsIiNibG9jay0yYzI2MzU5YWFlMzlhMzJjNDZjMSIsIiNibG9jay0zODAyZjVhMzE2M2EwYWU1MWUzOSIsIiNibG9jay04MWUyMmFiNDQ2OTAxZTA1NjMyMiIsIiNibG9jay0wZjljOTEzYmRhMmQ0N2UxYjAzNiIsIiNibG9jay0xMjg2YjI1MTEwODRiYjg1ZTk5ZSIsIiNibG9jay0zYmNmODk4MjZjMWU3NGJhMTE3MyIsIiNibG9jay0xMjg3ZDdhMDJmM2U4ODhlZjFmYSJdfSx7ImlkIjoiLnNrLXByZXNldC0yMjk2NTUxMzExNDY0OTI1Iiwic2wiOlsiI2Jsb2NrLTgwZDMyOTk1MzRmMTk3Y2VlYjZiIiwiI2Jsb2NrLTIwYjE1YjJiM2VmZDVkYjcyNjQ1IiwiI2Jsb2NrLTVhNDA3NjZjZmU0MTBkZWZkMTg5IiwiI2Jsb2NrLTBmZmY1MDEwNjc5YTQyOTE3MDlmIiwiI2Jsb2NrLTBhZGVhOGYzOGI4ODA4ZTczNDVkIiwiI2Jsb2NrLTRlNTBlZmRiNGQzNDcxMmY0YjNhIiwiI2Jsb2NrLWQwY2Y5ZjljNmY4MzI1MjlkMzQzIiwiI2Jsb2NrLTExZDE2M2I2NzNkNTVjZmQ2ZjJjIiwiI2Jsb2NrLTJkNzU2MmJlZGE0MWMxZjU3MjA0Il19LHsiaWQiOiIuc2stcHJlc2V0LTU0NzA1ODAxOTg0MjU5NzQiLCJzbCI6WyIjYmxvY2stOWIyNDFhNWE3ODljNDkwODVmY2YiLCIjYmxvY2stODVmOWEyZTA5N2YyNWY1Y2YyNzciXX1d">var timer;(window.sk_applyPresets = () => {document.querySelectorAll('[class*=sk-preset]').forEach((e) => {e.classList &&[...e.classList].forEach((s) => {s.includes('sk-preset-') && e.classList.remove(s);});});if (document.querySelector('#skPresets > script')) {JSON.parse(atob(document.querySelector('#skPresets > script').dataset.config)).forEach((e) => {e.sl.forEach((s) => {document.querySelector(s) &&document.querySelector(s).classList.add(e.id.replace('.', ''));if (s.includes('#block-') && document.querySelector(s.replace('#', '.fe-'))) {document.querySelector(s.replace('#', '.fe-')).classList.add(e.id.replace('.', 'fe-'));}});},);}});if (document.readyState === 'complete') window.sk_applyPresets();window.addEventListener('DOMContentLoaded', () => window.sk_applyPresets());window.addEventListener('resize',() => {clearTimeout(timer), (timer = setTimeout(() => window.sk_applyPresets(), 500));},!0,);</script></div><div id="skDependencies"><script id="skDependency_jquery" src="https://code.jquery.com/jquery-3.5.1.min.js"></script></div><div id="skFonts"><link id="skfont_pt-mono" href="https://fonts.googleapis.com/css2?family=PT+Mono:wght@100;400;700" rel="stylesheet"></div><div id="skScripts"><div class="SKSectionStickySplit" data-subject="6622f1f7d1bf3d215bc87021" data-count="9" data-targets="1"><script>$(document).ready(()=>{$('section[data-section-id="6622f1f7d1bf3d215bc87021"]').each(function(){$(this).nextUntil($(this).nextAll().slice(9)).addBack().wrapAll('<div class="sk-sticky-wrapper" data-id="6622f1f7d1bf3d215bc87021"></div>'),$(this).wrap('<div class="sk-col"></div>'),$(this).parent().siblings("section").wrapAll('<div class="sk-col"></div>')})});</script></div><div style="display:none;" data-subject="site" id="sk_scrollup"><div class="speed">1000ms</div><div class="delay">100vh</div><script>jQuery(document).ready(l=>{l(".sk_scrollup_btn").length||(l("body").append('<div class="sk_scrollup_btn"><div class="sk_inner"><div class="sk_icon"></div></div></div>'),l(".sk_scrollup_btn").click(()=>{let s=l("#sk_scrollup .speed").text().replace("ms","");l("html,body").animate({scrollTop:0},Number(s))})),l(window).scroll(()=>{var s=Number(l("#sk_scrollup .delay").text().replace("vh",""))*(window.outerHeight/100);l(window).scrollTop()>s?l(".sk_scrollup_btn").addClass("sk_show"):l(".sk_scrollup_btn").removeClass("sk_show")})});</script></div><div class="SKSplitPaddingFunction"><script>window.SKSplitPadding=()=>{setTimeout((()=>{document.querySelectorAll("head #SKSplitPaddingCSS").forEach((e=>e.remove()));let e=0,t=0;document.querySelector("article>section:first-child")&&document.querySelectorAll("article>section").forEach((i=>{e+=i.offsetWidth,e<=window.innerWidth+1&&t++}));const i=document.querySelector("article>div.sk-horizontal-wrapper:first-child"),d=document.querySelector("article>div.sk-sticky-wrapper:first-child");let r=null;if(t>1&&(r="article>section:nth-child(-n+"+t+")"),i&&(r="article>div.sk-horizontal-wrapper:first-child section"),d&&(r="article>div.sk-sticky-wrapper:first-child section:first-child"),r){const e='<style id="SKSplitPaddingCSS">'+r+"{padding-top:"+document.querySelector("header").offsetHeight+"px!important;}</style>";document.querySelector("head").insertAdjacentHTML("beforeend",e),window.onresize=()=>{window.SKSplitPadding()}}}),10)},window.addEventListener("load",(()=>window.SKSplitPadding()));</script></div></div><div id="skOverflow"><meta name="viewport" content="width=device-width, minimum-scale=1.0"><style>body{overflow-x:clip!important;}</style></div></div>
+<!---------------------------------------------------------------->
+<!--- DO NOT REMOVE -- SQUAREKICKER EXTENSION -- DO NOT REMOVE --->
+<!---------------------------------------------------------------->
